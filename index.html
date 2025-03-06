@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <div id="main">
+       <img id="img1">
+       <h3 id="Name"></h3> 
+       <h4 id="age"></h4>
+       <h4 id="gender"></h4>
+       <h4 id="phoneno"></h4>
+       <h4 id="email"></h4>
+    </div>
+    <script>
+        let x1=document.getElementById("main")
+        x1.style.border="2px solid "
+        x1.style.height="300px"
+        x1.style.width="200px"
+        x1.style.padding="1rem"
+        x1.style.textAlign="center"
+        let image=document.getElementById("img1")
+        image.setAttribute("src","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrhhCVBVJmP9HM--j8Ayd_Kxk8wmbt3hTnsg&s")
+        image.setAttribute("height","80px")
+        image.setAttribute("width","70px")
+        let name=document.getElementById("Name")
+        name.innerHTML="Name:<i>Sravani</i>"
+        let age=document.getElementById("age")
+        age.innerHTML="age:21"
+        let gender=document.getElementById("gender")
+        gender.innerHTML="gender:female"
+        let phoneno=document.getElementById("phoneno")
+        phoneno.innerHTML="phoneno:9876543210"
+        let email=document.getElementById("email")
+        email.innerHTML="email:abcd@gmail.com"
+
+    </script>
+</body>
+</html>
